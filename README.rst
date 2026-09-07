@@ -142,6 +142,10 @@ Lucid includes a compiler and toolchain written in Rust, located in
 * ``lucid-cli`` — the unified driver executable providing ``build``, ``run``,
   ``check``, and ``parse`` subcommands.
 
+For a detailed explanation of pipeline stages, unboxed memory layouts, and
+code generation, see
+`Compiler and runtime architecture <docs/architecture.rst>`_.
+
 Quick start
 ~~~~~~~~~~~
 
